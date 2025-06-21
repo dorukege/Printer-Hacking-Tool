@@ -24,8 +24,7 @@ Designed for educational and authorized penetration testing purposes only.
 
 ```bash
 python3 printer_pentest.py
-
-
+```
 
 
 
