@@ -24,3 +24,42 @@ Designed for educational and authorized penetration testing purposes only.
 
 ```bash
 python3 printer_pentest.py
+
+
+
+
+
+## Prerequisites
+
+Before running the Printer Pentest Toolkit, ensure you have the following installed and configured on your system:
+
+1. **Python 3**  
+   Download and install from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+
+2. **Nmap**  
+   - **Linux (Debian/Ubuntu):**  
+     ```bash
+     sudo apt install nmap
+     ```  
+   - **macOS (with Homebrew):**  
+     ```bash
+     brew install nmap
+     ```  
+   - **Windows:**  
+     Download and install from [https://nmap.org/download.html](https://nmap.org/download.html), and ensure `nmap.exe` is added to your system PATH.
+
+3. **snmpwalk (Net-SNMP)**  
+   - **Linux (Debian/Ubuntu):**  
+     ```bash
+     sudo apt install snmp
+     ```  
+   - **macOS (with Homebrew):**  
+     ```bash
+     brew install net-snmp
+     ```  
+   - **Windows:**  
+     Download and install from [http://www.net-snmp.org/](http://www.net-snmp.org/) and add the binaries to your PATH.
+
+4. **Python module `python-nmap` (optional, for extended features)**  
+   ```bash
+   pip install python-nmap
