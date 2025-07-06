@@ -1,3 +1,9 @@
+Disclaimer
+
+This project is for educational use and authorized security testing only.
+The author is NOT responsible for any misuse or illegal activity conducted with this tool.
+Use responsibly and only test devices you own or have explicit permission to test.
+
 # Printer-Hacking-Tool
 Interactive Python toolkit for printer security testing, including Nmap scans, SNMP queries, raw message sending
 
@@ -62,3 +68,7 @@ Before running the Printer Pentest Toolkit, ensure you have the following instal
 4. **Python module `python-nmap` (optional, for extended features)**  
    ```bash
    pip install python-nmap
+
+
+
+
